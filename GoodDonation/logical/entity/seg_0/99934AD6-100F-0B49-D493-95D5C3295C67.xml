@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99934AD6-100F-0B49-D493-95D5C3295C67" name="RESERVA_PRODUTO">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:22:42 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reserva" id="2109B626-562F-A1CE-11F9-C7D96D347931">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:51:54 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_beneficiario" id="25A3B942-CFC1-414D-AA7D-FA75C190E5F8">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:49:30 UTC</createdTime>
+<generatorID>E17F48D3-A362-E7F7-4C55-F78BFF6A7F94</generatorID>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<referedAttribute>8DBFA69B-3B8C-B54C-C8DE-67C6FA11A9F2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="E424F06D-C5E4-B83A-F2D0-FED0F62C852E">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:50:44 UTC</createdTime>
+<generatorID>D745C057-BE18-DFB8-387A-8F6AB28C8C9E</generatorID>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<referedAttribute>4BD8CD6D-90F7-E677-1DE4-956CED8EB972</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_retirada" id="CE58AAC1-CB48-2CF5-6728-57203FAEB02D">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:52:52 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_reserva" id="5E0B3E70-65DE-2305-1E94-736DA4A34E99">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:52:52 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_produto" id="A0FE332A-3D4E-38C6-B529-1AB1F6B03EAE">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:54:20 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D05101B0-99CE-F9F0-5CD0-78F68BDACCD1" name="RESERVA_PRODUTO PK">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:52:09 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2109B626-562F-A1CE-11F9-C7D96D347931</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

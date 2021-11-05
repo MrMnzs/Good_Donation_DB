@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F6A8C59-9A4D-D06C-32EF-0866F1833EB5" name="BENEFICIARIO">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 11:55:38 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_beneficiario" id="8DBFA69B-3B8C-B54C-C8DE-67C6FA11A9F2">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:27:31 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cnpj" id="2A56CF96-1FDA-88DA-2DDE-88FC037D31F9">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:09:14 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fantasia" id="01D36264-333E-331E-12D3-518D4C319673">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:09:15 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_razao_social" id="619F4DA3-7743-9382-DF9E-D94C4C22F25F">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:10:24 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="4FCECC6D-A111-A97A-572A-A3BE9C22999C">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:11:28 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="6C50881B-990D-FD61-99BF-1D84E7FD1307">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:11:48 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="FEF043D8-38EE-E107-8DDF-A252BF02935F">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:12:08 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="E13912C7-2AA3-236F-0B9E-01904D21018B">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:12:23 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cep" id="6DC11138-4811-232A-82EF-80B39102F30F">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:12:41 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="9AF5854F-A951-672A-5B0C-1CB4B8B26EB1">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:14:05 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_residentes" id="B171EE92-469D-BE7A-614C-E9A70A719582">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:14:55 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E0E99EE-3FCD-9B4C-D384-04E7288673B6" name="BENEFICIARIO PK">
+<createdBy>Elis</createdBy>
+<createdTime>2021-11-05 14:09:44 UTC</createdTime>
+<ownerDesignName>GoodDonation</ownerDesignName>
+<engineerTo>
+<item key="A3D7B3A7-29C9-E5DB-F755-4E0A54AA0790" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DBFA69B-3B8C-B54C-C8DE-67C6FA11A9F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
